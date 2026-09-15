@@ -1,0 +1,14 @@
+interface:
+  display_name: Elite Luau Architect
+  short_description: Arquitetura, código e revisão Luau para Roblox
+  default_prompt: Use $elite-luau-architect para projetar, implementar ou revisar
+    este sistema Roblox com tipagem estrita e autoridade no servidor.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
