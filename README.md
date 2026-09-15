@@ -1,17 +1,17 @@
 # Elite Luau Architect
 
-Skill para criar, refatorar e revisar sistemas Luau/Roblox com padrão de produção.
+Skill para criar, refatorar e revisar sistemas Luau/Roblox avançados, com padrão de produção.
 
 ## O que ela cobre
 
 - Tipagem estrita com `--!strict`
-- Arquitetura modular e APIs explícitas
-- Autoridade do servidor e validação de RemoteEvents
-- Economia, inventário, combate e progressão
-- DataStore, MemoryStore e concorrência entre servidores
-- Gerenciamento de conexões e ciclo de vida
+- Arquitetura modular, contratos tipados e APIs explícitas
+- Autoridade do servidor e validação rigorosa de RemoteEvents
+- Economia, inventário, combate, replicação e progressão
+- DataStore, MemoryStore, session locking e concorrência entre servidores
+- Gerenciamento de conexões, tarefas e ciclo de vida
 - Performance, Parallel Luau e otimização baseada em profiling
-- Revisões técnicas com problemas ordenados por gravidade
+- Revisões técnicas com problemas ordenados por severidade
 
 ## Instalação
 
@@ -24,7 +24,7 @@ Skill para criar, refatorar e revisar sistemas Luau/Roblox com padrão de produ�
 Chame a skill no início do pedido:
 
 ```
-Use $elite-luau-architect para criar um sistema de combate com RemoteEvents seguros.
+Use $elite-luau-architect para criar um sistema de combate escalável com RemoteEvents seguros.
 ```
 
 Também pode pedir diretamente, por exemplo:
@@ -49,7 +49,7 @@ elite-luau-architect/
 A skill prioriza:
 
 1. Correção
-2. Desempenho medido
-3. Código simples, legível e sustentável
+2. Desempenho comprovado por medição
+3. Arquitetura avançada, tipada, segura e sustentável para sistemas que evoluem por anos
 
-O cliente é tratado como entrada e camada visual; o servidor mantém o estado autoritativo.
+Ela evita soluções superficiais, código de tutorial e abstrações frágeis. O cliente é tratado como entrada e camada visual; o servidor mantém todo estado autoritativo.
