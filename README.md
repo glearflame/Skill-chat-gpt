@@ -53,3 +53,18 @@ A skill prioriza:
 3. Arquitetura avançada, tipada, segura e sustentável para sistemas que evoluem por anos
 
 Ela evita soluções superficiais, código de tutorial e abstrações frágeis. O cliente é tratado como entrada e camada visual; o servidor mantém todo estado autoritativo.
+
+## UI Specialist integrado
+
+A skill principal inclui o [módulo UI Specialist](elite-luau-architect/references/ui-specialist.md), aplicado a pedidos de interfaces Roblox.
+
+- Visual vibrante e lúdico para jogos familiares.
+- Arte gerada para ícones, retratos e fundos; estrutura e texto em Luau.
+- UITheme tipado, componentes avançados e animações controladas.
+- Estados idle, hover/focus, pressed, disabled e selected quando relevante.
+- Contraste calculado, safe areas e layouts para celular e desktop.
+- Descarte de conexões e tweens, com autoridade do servidor em compras.
+
+Exemplo: `Use $elite-luau-architect para criar uma loja de pets com UI vibrante, ícones gerados e suporte a celular.`
+
+O módulo faz parte da pasta da skill; mantenha também `references/ui-specialist.md` ao copiá-la.
